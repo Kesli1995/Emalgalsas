@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contacta al equipo de Emalgalsas." />
+    <title>Contacto | Emalgalsas</title>
+    <link rel="icon" href="img/logo.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script src="js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="topbar">
+      <div class="container topbar-inner">
+        <span>Conectamos Ecuador con Galápagos</span>
+        <a href="rastreo.html"
+          >Rastrea tu envío <span aria-hidden="true">→</span></a
+        >
+      </div>
+    </div>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="index.html"
+          ><img src="img/logo.png" alt="" /><span
+            >emalgalsas<small>LOGÍSTICA &amp; TRANSPORTE</small></span
+          ></a
+        ><button
+          class="menu-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="primary-nav"
+          aria-label="Abrir menú"
+        >
+          <span></span><span></span><span></span>
+        </button>
+        <nav
+          id="primary-nav"
+          class="primary-nav"
+          aria-label="Navegación principal"
+        >
+          <a href="index.html">Inicio</a><a href="servicios.html">Servicios</a
+          ><a href="destinos.html">Destinos</a
+          ><a href="noticias.html">Noticias</a
+          ><a class="active" href="contacto.html">Contacto</a
+          ><a class="nav-cta" href="cotizar.html"
+            >Cotizar envío <span aria-hidden="true">↗</span></a
+          >
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section class="page-hero">
+        <div class="container">
+          <p class="eyebrow light">ESTAMOS PARA AYUDARTE</p>
+          <h1>Conversemos<br /><em>de tu próximo envío.</em></h1>
+          <p>¿Tienes una consulta? Nuestro equipo está listo para ayudarte.</p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="container form-layout contact-layout">
+          <div>
+            <p class="eyebrow">CONTACTO</p>
+            <h2>Estamos<br />al otro lado.</h2>
+            <p class="form-aside-copy">
+              Déjanos un mensaje y te responderemos lo antes posible.
+            </p>
+            <div class="contact-detail">
+              <span>Correo electrónico</span
+              ><a href="mailto:info@emalgalsas.com">info@emalgalsas.com</a>
+            </div>
+            <div class="contact-detail">
+              <span>Atención</span>
+              <p>Lunes a viernes · 08:00–17:00</p>
+            </div>
+          </div>
+          <form class="site-form" data-feedback-form>
+            <div class="form-row">
+              <label
+                >Nombre<input name="name" autocomplete="name" required /></label
+              ><label
+                >Correo electrónico<input
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  required
+              /></label>
+            </div>
+            <label
+              >¿En qué podemos ayudarte?<textarea
+                name="message"
+                rows="5"
+                required
+              ></textarea></label
+            ><button class="button button-dark" type="submit">
+              Enviar mensaje <span aria-hidden="true">↗</span>
+            </button>
+            <p class="form-message" role="status" aria-live="polite"></p>
+            <p class="form-note">
+              Al enviar, aceptas que usemos tus datos únicamente para atender tu
+              consulta.
+            </p>
+          </form>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="container footer-main">
+        <a class="brand footer-brand" href="index.html"
+          ><img src="img/logo.png" alt="" /><span
+            >emalgalsas<small>LOGÍSTICA &amp; TRANSPORTE</small></span
+          ></a
+        >
+        <p>Conectamos Ecuador continental<br />con las islas Galápagos.</p>
+        <div class="footer-links">
+          <a href="servicios.html">Servicios</a
+          ><a href="destinos.html">Destinos</a><a href="rastreo.html">Rastreo</a
+          ><a href="contacto.html">Contacto</a>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span data-year></span> Emalgalsas. Todos los derechos
+          reservados.</span
+        ><span>Hecho para conectar.</span>
+      </div>
+    </footer>
+  </body>
+</html>
